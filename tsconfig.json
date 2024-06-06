@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "api/*":["api/*"]
+        },
+        "outDir": "./dist",
+        "noImplicitAny": false,
+        "module": "CommonJS",
+        "target": "ES6",
+        "strict": false,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "allowJs": true
+    },
+    "include": [
+        "./src/**/*.ts",
+        "./src/**/*.tsx",
+        "src/nav/NavMenu.js"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
