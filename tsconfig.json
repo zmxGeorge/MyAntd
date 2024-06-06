@@ -15,8 +15,7 @@
     },
     "include": [
         "./src/**/*.ts",
-        "./src/**/*.tsx",
-        "src/nav/NavMenu.js"
+        "./src/**/*.tsx"
     ],
     "exclude": [
         "node_modules"
